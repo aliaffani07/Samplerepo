@@ -49,3 +49,18 @@ for(let k=0;k<=10;k++){
         console.log(k)
     }
 }
+let sam= true  
+while (sam)
+{
+    console.log(sam)
+    required=false
+}
+console.log('************************************')
+
+//print the comman varaibles of 2 and 5
+for(let r=0;r<=10;r++){
+    if (r%2 ==0 && r%5==0 )
+    {
+        console.log(r)
+    }
+}
