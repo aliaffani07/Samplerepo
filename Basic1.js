@@ -21,3 +21,21 @@ console.log(c)
 // we cannot redeclare variable with let keyword but possible with var
 console.log(!required)
 
+let stage= true
+
+if (!stage)
+{
+    console.log('condition staisfied')
+} else 
+{
+    console.log(stage)
+   console.log('condition not staified') 
+}
+let i=1
+while (i<3)
+{
+  i++
+    console.log('i am in a loop')
+}
+
+

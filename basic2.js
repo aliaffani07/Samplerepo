@@ -37,23 +37,28 @@ for (let j=0;j<=10;j++)
 let required= true  
 while (required)
 {
+    required=false
     console.log(required)
     required=false
 }
 console.log('************************************')
 
 //print the comman varaibles of 2 and 5
-for(let k=0;k<=10;k++){
+for(let k=0;k<=100;k++){
     if (k%2 ==0 && k%5==0 )
     {
         console.log(k)
+        if (k==30)
+         break
     }
+   
 }
+
 let sam= true  
 while (sam)
 {
     console.log(sam)
-    required=false
+    sam=false
 }
 console.log('************************************')
 
@@ -63,4 +68,4 @@ for(let r=0;r<=10;r++){
     {
         console.log(r)
     }
-}
+}  
